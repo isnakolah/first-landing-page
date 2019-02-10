@@ -46,7 +46,7 @@ ul{
   padding: 0;
   display: inline;
   float: left;
-  background-color: grey;
+  background-color: lightgrey;
   overflow: hidden;
   width: 100%;
 }
@@ -60,7 +60,7 @@ li {
 }
 li a {
   display: block;
-  color: white;
+  color: black;
   padding: 14px 16px;
   text-decoration; none;
 }
@@ -81,4 +81,9 @@ p {
 /*making the navigation bar highlight the main tab*/
 .active {
   background-color:gray;
+}
+/*moving contact to the futhest left*/
+.contact {
+  float: right;
+  font-weight: bold;
 }
