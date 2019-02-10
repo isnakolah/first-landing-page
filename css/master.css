@@ -39,18 +39,34 @@ img {
   color: purple;
   font-weight: bold;
 }
-.nav {
-  background-color: white;
-  font-size: 20pt;
-  height: 100%;
-  width: 100%;
-  color: black;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  display: inline-table;
+/* making the navigation bar so that the user can be able to hover*/
+ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
   float: left;
-  border-right: 2px solid black;
-  position: sticky;
-  top: 0;
+  background-color: grey;
+  overflow: hidden;
+  width: 100%;
+}
+a {
+  display: block;
+  padding: 8px;
+  background-color: lightgrey;
+}
+li {
+  float: left;
+}
+li a {
+  display: block;
+  color: white;
+  padding: 14px 16px;
+  text-decoration; none;
+}
+li a:hover {
+  background-color: brown;
+
 }
 .abbr{
   color: red;
@@ -61,4 +77,8 @@ img {
 p {
   padding-left: 10%;
   padding-right: 5%;
+}
+/*making the navigation bar highlight the main tab*/
+.active {
+  background-color:gray;
 }
