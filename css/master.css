@@ -30,6 +30,7 @@ img {
   float: left;
   padding-left: 10px;
   border-radius: 8px;
+  clear: both;
 }
 .intro {
   padding-left: 55%;
@@ -49,6 +50,8 @@ ul{
   background-color: lightgrey;
   overflow: hidden;
   width: 100%;
+  /*making the navigation bar stick to the top*/
+  position: sticky;
 }
 a {
   display: block;
