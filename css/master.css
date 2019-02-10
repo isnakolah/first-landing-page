@@ -1,38 +1,23 @@
+.whole {
+  background-color: grey;
+  background-position: center;
+  height: 100%;
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 0px;
+}
 body {
   background-color: black;
 }
+h1 {
+  text-align: center;
+  color: maroon;
+}
 img {
-  border-radius: 11px;
-  width: 125px;
-  padding: 4px;
-  max-width: 100%
-  height:auto;
+  max-width: 50%;
+  height: auto:
 }
-.whole {
-  width: auto;
-  padding-left: 20%;
-  padding-right: 20%;
-  background-color: grey;
-}
-.heading {
- color: red;
- display: flex;
-}
-.intro{
+.img {
   float: left;
- color: purple;
- display: flex;
 }
-#intro{
-  float: left;
-  padding-left: 50%;
-}
-#img {
-  width: 50%
-}
-.abbr {
-  color: blue;
-  font-size: 15px;
-  font-family: monospace;
-}
-.glow {
