@@ -1,3 +1,8 @@
+* {
+  background-image: url("images/Parallax-Background-Dark-08.jpg");
+  background-size: cover;
+}
+
 .whole {
   background-color: grey;
   background-position: center;
@@ -9,28 +14,30 @@
   font-size: 17px;
 }
 body {
-  background-color: black;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
 }
 h1 {
   text-align: center;
   color: maroon;
   font-weight: bold;
-  font-family: cursive;
-  font-variant: small-caps;
+  font-family: "Open Sans", "Proxima Nova ", "Segoe UI", "Opensans", "Roboto", "Helvetica", -apple-system, system-ui, BlinkMacSystemFont, sans-serif;
+  font-variant: normal;
   font-feature-settings: normal;
   font-size-adjust: auto;
   font-size: 50px;
 }
 img {
-  max-width: 50%;
-  height: auto:
+  max-width: 200px%;
+  height: 200px;
+  text-align: center;
 }
 .img {
-  float: left;
-  padding-left: 10px;
-  border-radius: 8px;
-  clear: both;
+  float: center;
+  padding-left: 50%;
+  padding-right: 50%;
+  border-radius: 100%;
+
 }
 .intro {
   padding-left: 55%;
